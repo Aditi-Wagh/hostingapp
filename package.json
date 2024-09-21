@@ -16,8 +16,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",      
-    "deploy": "gh-pages -d build"     
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -37,5 +37,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://<your-github-username>.github.io/<your-repo-name>"  
+  "homepage": "https://github.com/Aditi-Wagh/hostingapp",
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
 }
